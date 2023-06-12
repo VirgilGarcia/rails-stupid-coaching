@@ -1,0 +1,16 @@
+<div class="m-5">
+  <h1>Stupid Coach</h1>
+  <div class="case mt-3 p-3 lh-2">
+    <%= @question %>
+      <p><i>--Moi</i></p>
+  </div>
+
+  <div class="case mt-3 p-3 lh-2">
+    <%= @answer %>
+      <p><i>--Coach</i></p>
+  </div>
+
+  <div class="return mt-3">
+    <%= link_to "Je veux poser une nouvelle question", ask_path %>
+  </div>
+</div>
